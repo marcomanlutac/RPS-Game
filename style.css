@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right,#F7F4F3, #FFDAFC);
+}
+button{
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#result{
+    font-weight: bold;
+}
+#prompt{
+    font-weight: bold;
+}
