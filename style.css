@@ -3,7 +3,6 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
 body {
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,13 +10,32 @@ body {
     background: linear-gradient(to right,#F7F4F3, #FFDAFC);
 }
 button{
-    font-size: 25px;
+    background-color: rgb(255, 154, 225);
+    font-size: 75px;
     border-radius: 10px;
+    margin: 0 15px;
 }
-
 #result{
+    font-size: 40px;
+    color: indigo;
+    text-transform: uppercase;
     font-weight: bold;
 }
-#prompt{
+#choice1{
+    font-size: 20px;
     font-weight: bold;
+}
+#choice2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.scoreDisplay{
+    font-size: 15px;
+    font-weight: bold;
+}
+#pscore{
+    color: red;
+}
+#cscore{
+    color: blue;
 }
