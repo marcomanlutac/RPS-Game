@@ -8,16 +8,22 @@
     <link rel="icon" type="image/jpg" href="/Programmers Den Code Entry/images/fav_icon.jpg"> 
 </head>
 <body>
-    <h2>Rock Paper Scissor</h2>
+    <h2>Rock Paper Scissor Game</h2><br>
+    
+    <button onclick="play('rock')">👊</button>
+    <button onclick="play('paper')">✋</button>
+    <button onclick="play('scissor')">✌</button>
 
-    <button onclick="play('rock')">Rock</button>
-    <button onclick="play('paper')">Paper</button>
-    <button onclick="play('scissor')">Scissor</button>
+    <p id="result">TESTING</p>
+    <p id="choice1">Player picked:</p>
+    <p id="choice2">Computer picked:</p>
+    <div class="scoreDisplay">Player Score: 
+        <span id="pscore">0</span>
+    </div>
 
-    <p id="result"></p>
-    <p id="prompt"></p>
-
-    <script src="index.js"></script>
+    <div class="scoreDisplay">Computer Score: 
+        <span id="cscore">0</span>
+    </div>
 
     <script src="index.js"></script>
 </body>
